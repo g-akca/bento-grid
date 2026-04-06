@@ -10,7 +10,7 @@ import AICard from "./components/AICard";
 function App() {
   return (
     <div className="text-base leading-base min-h-screen bg-[#F6F5F6] px-4 py-8">
-      <main>
+      <main className="flex flex-col gap-8">
         <SocialMediaCard />
         <ManageCard />
         <MaintainCard />
