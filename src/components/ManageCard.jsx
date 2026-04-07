@@ -1,8 +1,8 @@
 import platformsImg from "/images/illustration-multiple-platforms.webp";
 
-function ManageCard() {
+function ManageCard({ className }) {
   return (
-    <div className="bg-white p-4 rounded-[10px] flex flex-col gap-4">
+    <div className={`bg-white p-4 rounded-[10px] flex flex-col gap-4 ${className}`}>
       <img src={platformsImg} alt="Image of two accounts on different platforms" />
 
       <h2 className="font-medium text-[26px] leading-6 tracking-[-6%]">Manage multiple accounts and platforms.</h2>

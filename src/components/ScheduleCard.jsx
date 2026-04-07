@@ -1,8 +1,8 @@
 import scheduleImg from "/images/illustration-schedule-posts.webp";
 
-function ScheduleCard() {
+function ScheduleCard({ className }) {
   return (
-    <div className="bg-purple-100 py-8 px-4.25 rounded-[10px] text-center flex flex-col gap-6">
+    <div className={`bg-purple-100 py-8 px-4.25 rounded-[10px] text-center flex flex-col gap-6 ${className}`}>
       <h2 className="font-medium text-[26px] leading-6 tracking-[-6%]">Schedule to social media.</h2>
 
       <img src={scheduleImg} alt="Best time to post" />

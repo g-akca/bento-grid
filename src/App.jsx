@@ -9,14 +9,14 @@ import AICard from "./components/AICard";
 
 function App() {
   return (
-    <div className="text-base leading-base text-black min-h-screen bg-[#F6F5F6] px-4 py-8">
-      <main className="flex flex-col gap-8">
-        <SocialMediaCard />
+    <div className="text-base leading-base text-black min-h-screen bg-[#F6F5F6] px-4 py-8 tablet:px-10 tablet:py-13">
+      <main className="flex flex-col gap-8 tablet:grid tablet:grid-cols-2 tablet:grid-rows-[324px_247px_auto_auto_auto_auto]">
+        <SocialMediaCard className="tablet:col-span-2" />
         <ManageCard />
-        <MaintainCard />
-        <ScheduleCard />
-        <FollowerCard />
-        <AudienceCard />
+        <MaintainCard className="h-[216.25px] tablet:h-auto" />
+        <ScheduleCard className="tablet:col-span-2" />
+        <FollowerCard className="tablet:col-span-2" />
+        <AudienceCard className="tablet:col-span-2" />
         <ContentCard />
         <AICard />
       </main>
