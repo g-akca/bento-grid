@@ -5,7 +5,7 @@ function ManageCard() {
     <div className="bg-white p-4 rounded-[10px] flex flex-col gap-4">
       <img src={platformsImg} alt="Image of two accounts on different platforms" />
 
-      <h2 className="font-medium text-black text-[26px] leading-6 tracking-[-6%]">Manage multiple accounts and platforms.</h2>
+      <h2 className="font-medium text-[26px] leading-6 tracking-[-6%]">Manage multiple accounts and platforms.</h2>
     </div>
   )
 }
